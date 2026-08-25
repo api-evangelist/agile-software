@@ -12,18 +12,15 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/agile-software.png
 name: Agile Software
-description: >-
-  Agile Software Corporation was an American product lifecycle management (PLM) software
-  company founded in 1995 and headquartered in San Jose, California. Backed by Accel, it
-  IPO'd on the NASDAQ in 1999 and built enterprise software that helped manufacturers manage
-  product records, bills of materials, engineering change orders, quality, compliance, and
-  supply-chain data across a product's development and production lifecycle. Oracle Corporation
-  acquired Agile Software in July 2007 for approximately US$495 million; its products were
-  rebranded as Oracle Agile PLM and folded into Oracle's supply-chain and applications suite.
-  The company no longer operates independently: agilesoft.com now redirects to Oracle, and the
-  only surviving developer surface is the legacy Oracle Agile PLM SDK (a Java API set) hosted on
-  docs.oracle.com. This profile is retained as an acquired/historical record; there is no live,
-  independent public API surface to enrich.
+description: 'Agile Software Corporation was an American product lifecycle management (PLM) software company founded
+  in 1995 and headquartered in San Jose, California. Backed by Accel, it IPO''d on the NASDAQ in 1999 and built
+  enterprise software that helped manufacturers manage product records, bills of materials, engineering change orders,
+  quality, compliance, and supply-chain data across a product''s development and production lifecycle. Oracle Corporation
+  acquired Agile Software in July 2007 for approximately US$495 million; its products were rebranded as Oracle Agile
+  PLM and folded into Oracle''s supply-chain and applications suite. The company no longer operates independently:
+  agilesoft.com now redirects to Oracle, and the only surviving developer surface is the legacy Oracle Agile PLM
+  SDK (a Java API set) hosted on docs.oracle.com. This profile is retained as an acquired/historical record; there
+  is no live, independent public API surface to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/agile-software/refs/heads/main/apis.yml
 x-type: company
 x-source: accel-portfolio
@@ -35,7 +32,7 @@ x-acquired-year: '2007'
 x-successor-product: Oracle Agile PLM
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-08-21'
 tags:
 - Company
 - Product Lifecycle Management
@@ -52,12 +49,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/oracle/
+  name: Oracle
+  x-relationship: acquisition
+  x-generated-by: oracle-family:2026-08-21
 - type: Website
   url: https://www.oracle.com/agile/
 - type: CompanyHistory
   url: https://en.wikipedia.org/wiki/Agile_Software_Corporation
+- type: Subsidiary
+  url: https://apis.io/providers/digital-market/
+  name: Digital Market
+  x-relationship: acquisition
+  x-generated-by: oracle-family:2026-08-21
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-parent: oracle
+x-relationship: acquisition
