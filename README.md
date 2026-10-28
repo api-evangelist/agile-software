@@ -64,6 +64,34 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Agile Software is a company surfaced as a portfolio company of accel and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Source: portfolio company of [accel](https://github.com/api-evangelist/accel) — http://www.agilesoft.com
+Agile Software Corporation was an American product lifecycle management (PLM) software company founded in 1995 and headquartered in San Jose, California. Backed by Accel, it IPO'd on the NASDAQ in 1999 and built enterprise software that helped manufacturers manage product records, bills of materials, engineering change orders, quality, compliance, and supply-chain data across a product's development and production lifecycle. Oracle Corporation acquired Agile Software in July 2007 for approximately US$495 million; its products were rebranded as Oracle Agile PLM and folded into Oracle's supply-chain and applications suite. The company no longer operates independently: agilesoft.com now redirects to Oracle, and the only surviving developer surface is the legacy Oracle Agile PLM SDK (a Java API set) hosted on docs.oracle.com. This profile is retained as an acquired/historical record; there is no live, independent public API surface to enrich.
+
+**Areas:** Company · PLM · Manufacturing · Supply Chain · Enterprise Software · Acquired · Oracle
+
+## Agile Software on APIs.io (historical record)
+
+Everything profiled for Agile Software is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agile-software/](https://apis.io/providers/agile-software/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.oracle.com/agile/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Agile Software: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agile-software/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
